@@ -1,0 +1,3 @@
+[submodule "Sources/swift-argument-parser"]
+	path = Sources/swift-argument-parser
+	url = https://github.com/apple/swift-argument-parser.git
