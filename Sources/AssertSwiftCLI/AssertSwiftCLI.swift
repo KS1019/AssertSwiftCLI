@@ -1,6 +1,6 @@
-public struct AssertSwiftCLI {
-    public private(set) var text = "Hello, World!"
+import XCTest
+import ArgumentParser
+import ArgumentParserTestHelpers
 
-    public init() {
-    }
+public func AssertAll(for type: ParsableCommand.Type) {
 }

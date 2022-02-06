@@ -27,6 +27,12 @@ let package = Package(
             name: "AssertSwiftCLI",
             dependencies: [
                 .product(name: "CustomDump", package: "swift-custom-dump"),
+                "ArgumentParserTestHelpers"
+            ]),
+        .target(
+            name:
+                "ArgumentParserTestHelpers",
+            dependencies: [
                 .product(name: "ArgumentParser", package: "swift-argument-parser")
             ]),
         .testTarget(
